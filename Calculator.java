@@ -13,11 +13,10 @@ public class Calculator{
         int secondNumber = input.nextInt();
         double answer;
 
-
         if (symbol == '+'){
             answer = firstNumber + secondNumber ;
             System.out.println( answer );
-            // System.out.println( firstNumber ** secondNumber );
+            System.out.println( firstNumber + secondNumber );
         }
         else if (symbol == '-'){
              answer = firstNumber - secondNumber ;
@@ -35,6 +34,25 @@ public class Calculator{
             answer = firstNumber % secondNumber ;
             System.out.println( answer );
         }
+        else if (symbol == '^'){
+            answer= firstNumber;
+                if(secondNumber == 1){
+                    answer = firstNumber;
+                    System.out.println(answer);
+                }
+                else if(secondNumber == 0) {
+                    answer= 1;
+                    System.out.println(answer);
+                }
+            else if(secondNumber>1){
+                        for( int i = 2; i<=secondNumber; i++){
+                            answer = answer * firstNumber ;
+                        }
+                        System.out.println(answer);
+                    }
+
+            }
+            
         else {
             System.out.println( "something is wrong somewhere, check your operation" );
         }
