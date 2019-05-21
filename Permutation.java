@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Quick{
+public class Permutation{
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
