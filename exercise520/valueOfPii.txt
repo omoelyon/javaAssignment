@@ -1,0 +1,7 @@
+create a class ValueOfClass
+declare and initialise the value of pii to zero
+
+create a for loop
+write the formular (-1^i)(4/(2*i)-1)
+print the result of the fomular
+end loop

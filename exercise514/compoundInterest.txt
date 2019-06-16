@@ -1,0 +1,7 @@
+modify the driver class CompoundTest
+create a for loop
+	intialise counter to 5
+	loop through to 10
+	assign the counter to rate
+	parse the rate value as an argument to the compound interest object (obj)
+close loop

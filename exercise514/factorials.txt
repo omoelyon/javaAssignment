@@ -1,0 +1,8 @@
+create a method calFactorial
+accept an input from user called n
+declare and intialise a variable factorial to 1
+create a loop
+	 assign factorial to the product of each counter
+	print counter and the corresponding factorial value
+close loop
+ 

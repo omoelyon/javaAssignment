@@ -1,0 +1,9 @@
+convert the principal from dollars to cents(multiply by 100)
+
+declare the rate as a double and initialise to zero
+set variables principal, time and rate
+calculate the rate and multiply with the principal
+create a for loop
+calculate the amount and find modulo 100 to get cents
+then divide by 100 to get the dollars
+print the dollars and cents with a dot sign in the middle

@@ -1,0 +1,5 @@
+write a sentinel-controlled while loop
+use  a switch statement
+	assign each product to a case 
+	add multiply the price of each product with the quantity.
+for each case, add
