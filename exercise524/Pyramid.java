@@ -6,23 +6,26 @@ public class Pyramid {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		System.out.println("enter ");
-		int stars = input.nextInt();
-		int spaces = stars/2;
-		for(int i=0;i <= stars; i++) {
+		int num = input.nextInt();
+		
+		int spaces = num;
+		int stars = 1;
+		int mid = num/2;
+		for(int i=1;i <= num; i++) {
 			
-			for(int a=spaces; a>=i;a--) {
+			for(int a=spaces; a>0;a--) {
 				System.out.print(" ");
 			}
-			for(int b=0; b<=2*i;b++) {
+			for(int b=stars; b>0;b--) {
 				System.out.print("*");
 			}
 			System.out.println();
-			if(i >= stars/2) {
-				stars--;
+			if(i > num/2) {
+				stars-=2;
 				spaces++;
 			}
 			else {
-				stars++;
+				stars+=2;
 				spaces--;
 			}
 		}

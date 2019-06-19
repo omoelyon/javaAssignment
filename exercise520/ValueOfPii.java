@@ -9,7 +9,7 @@ public class ValueOfPii {
 		int n =input.nextInt();
 		double pii = 4;
 		double test = 4;
-		for (int i=7; i>n; i++) {
+		for (int i=1; i<=n; i++) {
 			System.out.println("i = "+i);
 
 			int power = (int) (Math.pow((-1), i));
@@ -19,9 +19,6 @@ public class ValueOfPii {
 			
 			test =  test + (power * divide);
 			System.out.println("test = "+test);
-			if(test == 3.142857142857143) {
-				break;
-			}
 			
 			System.out.println();
 		}
